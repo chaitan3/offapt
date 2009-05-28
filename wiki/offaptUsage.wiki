@@ -1,0 +1,40 @@
+How to use offapt:
+
+This software allows you to download packages for you offline Ubuntu/Debian computer.
+
+1. Setting up offapt:
+
+First you'll need to fetch information about your Ubuntu/Debian computer.
+
+After downloading the software extract it into a folder, take this folder to your Ubuntu/Debian computer.
+
+Now execute the file named "fetch" in the offapt folder on your Ubuntu/Debian computer.
+
+This can be done either by double clicking it or executing it from the terminal.
+
+Once its done (time taken is approximately equal to time taken to copy 30 MiB), copy the offapt folder
+
+to your online computer.
+
+Now offapt has been configured and is ready to use.
+
+2. Downloading Packages:
+
+Double click on offapt.exe to start the application, choose the appropriate option from the menu.
+
+Download packages: downloads the specified packages and saves them to the downloads folder in the offapt directory.
+
+Update all packages: Keeps your Ubuntu/Debian system upto date.(packages are saved in downloads folder)
+
+Reload Repositories: Updates the Index files for the packages. Do this at lease once a week.
+Recommended to be done after initial setup.
+
+3. Installing packages:
+
+After the packages have been downloaded copy all deb files to your offline Ubuntu/Debian computer.
+
+Install them by navigating to the downloads directory in the terminal and then issue the command:
+
+sudo dpkg -i *.deb
+
+The packages will now be installed.
