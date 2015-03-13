@@ -1,0 +1,1 @@
+Installing packages for an offline Ubuntu/Debian system if you dont have another linux system at hand is difficult. This software aims to simplify it by implementing some features of apt for windows and other systems in a cross platform manner.
